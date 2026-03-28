@@ -75,7 +75,7 @@ export default function App() {
           className="absolute right-[-5%] top-[15%] w-[60%] lg:w-[40%] z-0"
         >
           <img 
-            src="https://i.imgur.com/mT7rtCS.png" 
+            src="input_file_3.png" 
             alt="Growly+ App" 
             className="w-full h-auto drop-shadow-[0_0_100px_rgba(46,91,255,0.2)]"
             referrerPolicy="no-referrer"
@@ -128,8 +128,8 @@ export default function App() {
                 <h4 className="text-xl font-black uppercase tracking-tighter">Control</h4>
                 <p className="text-sm text-white/40">Without targeted training, control is left to chance rather than discipline.</p>
               </div>
-              <div className="flex flex-col gap-4 border-l-2 border-white/20 pl-8">
-                <h4 className="text-xl font-black uppercase tracking-tighter">Potential</h4>
+              <div className="flex flex-col gap-4 border-l-2 border-brand-accent pl-8">
+                <h4 className="text-xl font-black uppercase tracking-tighter text-brand-accent">Potential</h4>
                 <p className="text-sm text-white/40">Unlock the physiological baseline that most men never reach.</p>
               </div>
             </motion.div>
@@ -169,16 +169,16 @@ export default function App() {
               className="relative"
             >
               <img 
-                src="https://i.imgur.com/Fg2c6Ym.png" 
+                src="input_file_0.png" 
                 alt="Dashboard" 
                 className="w-[80%] mx-auto drop-shadow-2xl z-20 relative"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute -bottom-20 -right-10 w-[60%] z-30 hidden lg:block">
                 <img 
-                  src="https://i.imgur.com/6PoZAzK.png" 
+                  src="input_file_1.png" 
                   alt="Workout" 
-                  className="w-full drop-shadow-2xl"
+                  className="w-full drop-shadow-2xl border-4 border-brand-bg"
                   referrerPolicy="no-referrer"
                 />
               </div>
@@ -264,7 +264,7 @@ export default function App() {
                   "Longer Stamina",
                   "Better Control",
                   "Stronger Erections",
-                  "Natural Potential",
+                  "Enhanced Girth",
                   "Peak Confidence",
                   "Discipline First"
                 ].map((benefit, i) => (
@@ -298,38 +298,48 @@ export default function App() {
       </section>
 
       {/* 6. PRODUCT SHOWCASE - Asymmetrical Collage */}
-      <section className="py-32 px-8 bg-white/[0.02]">
-        <div className="text-center mb-32">
-          <span className="text-brand-primary font-black text-xs tracking-[0.5em] uppercase">The Interface</span>
-          <h2 className="text-display text-[8vw] lg:text-[5vw] mt-4">Designed for the Elite.</h2>
+      <section className="py-24 md:py-32 bg-white/[0.02] overflow-hidden">
+        <div className="px-8 text-center mb-16 md:mb-32">
+          <span className="text-brand-accent font-black text-xs tracking-[0.5em] uppercase">The Interface</span>
+          <h2 className="text-display text-[12vw] md:text-[8vw] lg:text-[5vw] mt-4">Designed for the Elite.</h2>
         </div>
 
-        <div className="relative max-w-7xl mx-auto h-[600px] md:h-[800px]">
+        {/* Mobile: Vertical Stack (Edge-to-Edge) | Desktop: Asymmetrical Collage */}
+        <div className="flex flex-col md:block md:relative max-w-7xl mx-auto md:h-[900px] gap-0 md:gap-0">
           <motion.div 
-            initial={{ opacity: 0, x: -100, rotate: -10 }}
-            whileInView={{ opacity: 1, x: 0, rotate: -5 }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="absolute left-[5%] top-0 w-[40%] md:w-[25%] z-10"
+            className="md:absolute md:left-[5%] md:top-0 w-full md:w-[25%] z-10 md:rotate-[-5deg]"
           >
-            <img src="https://i.imgur.com/YFd59sJ.png" alt="UI 1" className="w-full drop-shadow-2xl" referrerPolicy="no-referrer" />
+            <div className="relative group">
+              <div className="absolute -inset-1 bg-brand-primary/20 blur opacity-0 group-hover:opacity-100 transition duration-1000"></div>
+              <img src="input_file_0.png" alt="UI 1" className="relative w-full h-auto drop-shadow-2xl" referrerPolicy="no-referrer" />
+            </div>
           </motion.div>
           
           <motion.div 
-            initial={{ opacity: 0, y: 100 }}
+            initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="absolute left-1/2 -translate-x-1/2 top-[10%] w-[50%] md:w-[30%] z-20"
+            className="md:absolute md:left-1/2 md:-translate-x-1/2 md:top-[10%] w-full md:w-[30%] z-20"
           >
-            <img src="https://i.imgur.com/Fg2c6Ym.png" alt="UI 2" className="w-full drop-shadow-2xl scale-110" referrerPolicy="no-referrer" />
+            <div className="relative group">
+              <div className="absolute -inset-1 bg-brand-accent/20 blur opacity-0 group-hover:opacity-100 transition duration-1000"></div>
+              <img src="input_file_1.png" alt="UI 2" className="relative w-full h-auto drop-shadow-2xl md:scale-110" referrerPolicy="no-referrer" />
+            </div>
           </motion.div>
 
           <motion.div 
-            initial={{ opacity: 0, x: 100, rotate: 10 }}
-            whileInView={{ opacity: 1, x: 0, rotate: 5 }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="absolute right-[5%] top-[20%] w-[40%] md:w-[25%] z-10"
+            className="md:absolute md:right-[5%] md:top-[20%] w-full md:w-[25%] z-10 md:rotate-[5deg]"
           >
-            <img src="https://i.imgur.com/6PoZAzK.png" alt="UI 3" className="w-full drop-shadow-2xl" referrerPolicy="no-referrer" />
+            <div className="relative group">
+              <div className="absolute -inset-1 bg-brand-primary/20 blur opacity-0 group-hover:opacity-100 transition duration-1000"></div>
+              <img src="input_file_2.png" alt="UI 3" className="relative w-full h-auto drop-shadow-2xl" referrerPolicy="no-referrer" />
+            </div>
           </motion.div>
         </div>
       </section>
