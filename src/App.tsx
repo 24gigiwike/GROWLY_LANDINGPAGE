@@ -75,7 +75,7 @@ export default function App() {
           className="absolute right-[-5%] top-[15%] w-[60%] lg:w-[40%] z-0"
         >
           <img 
-            src="input_file_3.png" 
+            src="https://i.imgur.com/mT7rtCS.png" 
             alt="Growly+ App" 
             className="w-full h-auto drop-shadow-[0_0_100px_rgba(46,91,255,0.2)]"
             referrerPolicy="no-referrer"
@@ -169,14 +169,14 @@ export default function App() {
               className="relative"
             >
               <img 
-                src="input_file_0.png" 
+                src="https://i.imgur.com/6PoZAzK.png" 
                 alt="Dashboard" 
                 className="w-[80%] mx-auto drop-shadow-2xl z-20 relative"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute -bottom-20 -right-10 w-[60%] z-30 hidden lg:block">
                 <img 
-                  src="input_file_1.png" 
+                  src="https://i.imgur.com/Fg2c6Ym.png" 
                   alt="Workout" 
                   className="w-full drop-shadow-2xl border-4 border-brand-bg"
                   referrerPolicy="no-referrer"
@@ -314,7 +314,7 @@ export default function App() {
           >
             <div className="relative group">
               <div className="absolute -inset-1 bg-brand-primary/20 blur opacity-0 group-hover:opacity-100 transition duration-1000"></div>
-              <img src="input_file_0.png" alt="UI 1" className="relative w-full h-auto drop-shadow-2xl" referrerPolicy="no-referrer" />
+              <img src="https://i.imgur.com/Fg2c6Ym.png" alt="UI 1" className="relative w-full h-auto drop-shadow-2xl" referrerPolicy="no-referrer" />
             </div>
           </motion.div>
           
@@ -326,7 +326,7 @@ export default function App() {
           >
             <div className="relative group">
               <div className="absolute -inset-1 bg-brand-accent/20 blur opacity-0 group-hover:opacity-100 transition duration-1000"></div>
-              <img src="input_file_1.png" alt="UI 2" className="relative w-full h-auto drop-shadow-2xl md:scale-110" referrerPolicy="no-referrer" />
+              <img src="https://i.imgur.com/YFd59sJ.png" alt="UI 2" className="relative w-full h-auto drop-shadow-2xl md:scale-110" referrerPolicy="no-referrer" />
             </div>
           </motion.div>
 
@@ -338,7 +338,7 @@ export default function App() {
           >
             <div className="relative group">
               <div className="absolute -inset-1 bg-brand-primary/20 blur opacity-0 group-hover:opacity-100 transition duration-1000"></div>
-              <img src="input_file_2.png" alt="UI 3" className="relative w-full h-auto drop-shadow-2xl" referrerPolicy="no-referrer" />
+              <img src="https://i.imgur.com/6PoZAzK.png" alt="UI 3" className="relative w-full h-auto drop-shadow-2xl" referrerPolicy="no-referrer" />
             </div>
           </motion.div>
         </div>
