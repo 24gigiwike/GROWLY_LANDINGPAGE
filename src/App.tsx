@@ -75,7 +75,7 @@ export default function App() {
           className="absolute right-[-5%] top-[15%] w-[60%] lg:w-[40%] z-0"
         >
           <img 
-            src="input_file_3.png" 
+            src="https://i.imgur.com/mT7rtCS.png" 
             alt="Growly+ App" 
             className="w-full h-auto drop-shadow-[0_0_100px_rgba(46,91,255,0.2)]"
             referrerPolicy="no-referrer"
