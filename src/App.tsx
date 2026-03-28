@@ -178,7 +178,7 @@ export default function App() {
                 <img 
                   src="https://i.imgur.com/6PoZAzK.png" 
                   alt="Workout" 
-                  className="w-full drop-shadow-2xl border-4 border-brand-bg"
+                  className="w-full drop-shadow-2xl"
                   referrerPolicy="no-referrer"
                 />
               </div>
