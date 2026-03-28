@@ -169,14 +169,14 @@ export default function App() {
               className="relative"
             >
               <img 
-                src="input_file_0.png" 
+                src="https://i.imgur.com/Fg2c6Ym.png" 
                 alt="Dashboard" 
                 className="w-[80%] mx-auto drop-shadow-2xl z-20 relative"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute -bottom-20 -right-10 w-[60%] z-30 hidden lg:block">
                 <img 
-                  src="input_file_1.png" 
+                  src="https://i.imgur.com/6PoZAzK.png" 
                   alt="Workout" 
                   className="w-full drop-shadow-2xl border-4 border-brand-bg"
                   referrerPolicy="no-referrer"
