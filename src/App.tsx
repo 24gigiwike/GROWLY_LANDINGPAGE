@@ -343,8 +343,7 @@ export default function App() {
           </motion.div>
         </div>
 
-        <div style={{ position: "relative", width: "100%", height: "500px" }}>
-      const HeroVideo = () => {
+       const HeroVideo = () => {
   return (
     <video
       src="https://res.cloudinary.com/dtkluxukm/video/upload/v1774668518/Bananavisuals_xbmhc6.mp4"
@@ -352,18 +351,16 @@ export default function App() {
       loop
       muted
       playsInline
-      controls={false}
+      controls
       style={{
         width: "100%",
-        height: "100%",
+        height: "400px",
         objectFit: "cover",
+        backgroundColor: "transparent"
       }}
     />
   );
 };
-
-export default HeroVideo;
-        </div>
         
       </section>
 
