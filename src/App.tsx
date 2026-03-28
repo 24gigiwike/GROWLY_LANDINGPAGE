@@ -311,7 +311,7 @@ export default function App() {
             viewport={{ once: true }}
             className="absolute left-[5%] top-0 w-[40%] md:w-[25%] z-10"
           >
-            <img src="input_file_0.png" alt="UI 1" className="w-full drop-shadow-2xl" referrerPolicy="no-referrer" />
+            <img src="https://i.imgur.com/YFd59sJ.png" alt="UI 1" className="w-full drop-shadow-2xl" referrerPolicy="no-referrer" />
           </motion.div>
           
           <motion.div 
@@ -320,7 +320,7 @@ export default function App() {
             viewport={{ once: true }}
             className="absolute left-1/2 -translate-x-1/2 top-[10%] w-[50%] md:w-[30%] z-20"
           >
-            <img src="input_file_1.png" alt="UI 2" className="w-full drop-shadow-2xl scale-110" referrerPolicy="no-referrer" />
+            <img src="https://i.imgur.com/Fg2c6Ym.png" alt="UI 2" className="w-full drop-shadow-2xl scale-110" referrerPolicy="no-referrer" />
           </motion.div>
 
           <motion.div 
@@ -329,7 +329,7 @@ export default function App() {
             viewport={{ once: true }}
             className="absolute right-[5%] top-[20%] w-[40%] md:w-[25%] z-10"
           >
-            <img src="input_file_2.png" alt="UI 3" className="w-full drop-shadow-2xl" referrerPolicy="no-referrer" />
+            <img src="https://i.imgur.com/6PoZAzK.png" alt="UI 3" className="w-full drop-shadow-2xl" referrerPolicy="no-referrer" />
           </motion.div>
         </div>
       </section>
