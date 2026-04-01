@@ -342,19 +342,6 @@ export default function App() {
             </div>
           </motion.div>
         </div>
-
-       function App() {
-  return (
-    <video
-      src="https://res.cloudinary.com/dtkluxukm/video/upload/v1774668518/Bananavisuals_xbmhc6.mp4"
-      autoPlay
-      loop
-      muted
-      playsInline
-      style={{ width: "100%" }}
-    />
-  );
-}
       </section>
 
       {/* 7. FINAL CTA - Bold & Minimal */}
