@@ -360,7 +360,7 @@ export default function App() {
 function App() {
   return (
     <div>
-      <HeroVideo />
+      <HeroVideo/>
     </div>
   );
 }
