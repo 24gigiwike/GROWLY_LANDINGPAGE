@@ -344,7 +344,7 @@ export default function App() {
         </div>
       </section>
       
-      <section>
+
       const HeroVideo = () => {
   return (
     <video
@@ -366,7 +366,6 @@ function App() {
 }
 
 export default App;
-      </section>
 
       {/* 7. FINAL CTA - Bold & Minimal */}
       <section className="relative min-h-[80vh] flex items-center justify-center px-8 py-32 overflow-hidden">
