@@ -343,7 +343,7 @@ export default function App() {
           </motion.div>
         </div>
 
-       const HeroVideo = () => {
+       function App() {
   return (
     <video
       src="https://res.cloudinary.com/dtkluxukm/video/upload/v1774668518/Bananavisuals_xbmhc6.mp4"
@@ -351,17 +351,10 @@ export default function App() {
       loop
       muted
       playsInline
-      controls
-      style={{
-        width: "100%",
-        height: "400px",
-        objectFit: "cover",
-        backgroundColor: "transparent"
-      }}
+      style={{ width: "100%" }}
     />
   );
-};
-        
+}
       </section>
 
       {/* 7. FINAL CTA - Bold & Minimal */}
