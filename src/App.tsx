@@ -345,27 +345,20 @@ export default function App() {
       </section>
       
 
-      const HeroVideo = () => {
-  return (
-    <video
-      src="https://res.cloudinary.com/dtkluxukm/video/upload/v1774668518/Bananavisuals_xbmhc6.mp4"
-      autoPlay
-      loop
-      muted
-      playsInline
-    />
-  );
-};
-
-function App() {
-  return (
-    <div>
-      <HeroVideo/>
-    </div>
-  );
-}
-
-export default App;
+     <section>
+  <video
+    src="https://res.cloudinary.com/dtkluxukm/video/upload/v1774668518/Bananavisuals_xbmhc6.mp4"
+    autoPlay
+    loop
+    muted
+    playsInline
+    style={{
+      width: "100%",
+      height: "400px",
+      objectFit: "cover"
+    }}
+  />
+</section>
 
       {/* 7. FINAL CTA - Bold & Minimal */}
       <section className="relative min-h-[80vh] flex items-center justify-center px-8 py-32 overflow-hidden">
